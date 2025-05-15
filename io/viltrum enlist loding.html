@@ -68,6 +68,16 @@
                 window.location.href = destino; // Redireciona para a página armazenada na variável "destino"
             }, tempo);
         }
+        else
+        {
+          const tempo = Math.floor(Math.random() * (6000 - 1000 + 1)) + 1000; // tempo aleatório entre 1000 e 6000 ms
+
+            console.log("Redirecionando para:", destino, "em", tempo, "milissegundos");
+
+            setTimeout(() => {
+                window.location.href = "viltrum enlist complete.html"
+            }, tempo);
+        }
     </script>
             <img src="Viltrum-Empire-Logo.jpg" alt="Descrição da imagem" width="150" class="spinner">
             
